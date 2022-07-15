@@ -27,6 +27,8 @@ const sum = numbers.reduce(function(a,b){
 
 console.log(sum);
 
+//assignment.sumOfNumbers = sumOfNumbers;
+
 /**
  * Challenge - 2
  * 
@@ -36,9 +38,9 @@ console.log(sum);
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-//function countEvenNumbers(arrayOfNumbers) {
-    //return arrayOfNumbers.length;
-//}
+function countEvenNumbers(arrayOfNumbers) {
+    return arrayOfNumbers.length;
+}
 
 // use the same array you created above.
 // filter it and return a calculation that shows even number can be deducted by 2 and remain 0
@@ -49,7 +51,7 @@ const even = numbers.filter(function(num){
 //  Log it to see your answer on the console
  console.log(even.length);
 
-// assignment.countEvenNumbers = countEvenNumbers;
+//assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
