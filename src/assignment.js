@@ -13,21 +13,17 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
+ 
+function sumOfNumbers(arrayOfNumbers) {
+  let sum = 0;
+  for (let i = 0; i < arrayOfNumbers. length; i++) {
+    sum += arrayOfNumbers[i]
+  }
+  
+  return sum;
+}
 
-// create an array of numbers
-
-const numbers = [5, 4, 2, 6, 1, 3, 4, 8, 9];
-
-// write a function expression giving it a variable name
-
-const sum = numbers.reduce(function(a,b){
-    return a+b;
-})
-// log it to see your answer on the console
-
-console.log(sum);
-
-//assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -39,19 +35,15 @@ console.log(sum);
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+    let count = 0
+  for (let Number = 0; Number < arrayOfNumbers.length; Number++ ) {
+    if (arrayOfNumbers [Number] %2 === 0) {
+    count ++;
+    }
+  }
+  return count;
 }
-
-// use the same array you created above.
-// filter it and return a calculation that shows even number can be deducted by 2 and remain 0
-
-const even = numbers.filter(function(num){
-    return num%2==0
-})
-//  Log it to see your answer on the console
- console.log(even.length);
-
-//assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
