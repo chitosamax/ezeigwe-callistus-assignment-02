@@ -16,7 +16,7 @@ const assignment = {};
 
 // create an array of numbers
 
-const numbers = [5, 4, 2, 6, 1, 3, 4];
+const numbers = [5, 4, 2, 6, 1, 3, 4, 8, 9];
 
 // write a function expression giving it a variable name
 
